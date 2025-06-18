@@ -100,7 +100,7 @@ USE_TZ = True
 
 # Статические файлы
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
+STATICFILES_DIRS = [BASE_DIR / 'boards/static']
 
 # Пользовательская модель пользователя
 AUTH_USER_MODEL = 'users.CustomUser'
